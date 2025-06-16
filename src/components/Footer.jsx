@@ -1,39 +1,70 @@
 import React from 'react'
-import { footerLinks } from '../constants'
+
+const footerLinks = [
+  'Privacy Policy',
+  'Terms of Use',
+  'Sales and Refunds',
+  'Legal',
+  'Site Map'
+]
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
+
   return (
-    <footer className="py-5 sm:px-10 px-5">
-      <div className="screen-max-width">
-        <div>
-          <p className="font-semibold text-gray text-xs">
-            More ways to shop: {' '}
-            <span className="underline text-blue">
-            Find an Apple Store {' '}
-            </span>
-            or {' '}
-            <span className="underline text-blue">
-            other retailer
-            </span>{' '}
+    <footer className="bg-neutral-900 text-white py-8 sm:py-10">
+      <div className="screen-max-width px-5 sm:px-10">
+        {/* Top Section - Shopping Info */}
+        <div className="mb-6 text-center md:text-left">
+          <p className="text-xs sm:text-sm text-gray-400">
+            More ways to shop:{' '}
+            <a 
+              href="/retail" 
+              className="text-blue-400 hover:text-blue-300 transition-colors underline"
+              aria-label="Find an Apple Store"
+            >
+              Find an Apple Store
+            </a>{' '}
+            or{' '}
+            <a 
+              href="/resellers" 
+              className="text-blue-400 hover:text-blue-300 transition-colors underline"
+              aria-label="Find other retailers"
+            >
+              other retailer
+            </a>{' '}
             near you.
           </p>
-          <p className="font-semibold text-gray text-xs">
-            Or call 000800-040-1966
+          <p className="text-xs sm:text-sm text-gray-400 mt-2">
+            Or call <a href="tel:0008000401966" className="hover:underline">000800-040-1966</a>
           </p>
         </div>
 
-        <div className="bg-neutral-700 my-5 h-[1px] w-full" />
+        {/* Divider Line */}
+        <div className="bg-neutral-700 h-px w-full my-6" />
 
-        <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="font-semibold text-gray text-xs">Copright @ 2024 Apple Inc. All rights reserved.</p>
-          <div className="flex">
+        {/* Bottom Section */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          {/* Copyright */}
+          <p className="text-xs text-gray-400 order-2 md:order-1">
+            Copyright © {currentYear} Apple Inc. All rights reserved.
+          </p>
+          
+          {/* Footer Links */}
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 order-1 md:order-2">
             {footerLinks.map((link, i) => (
-              <p key={link} className="font-semibold text-gray text-xs">
-                {link}{' '}
+              <React.Fragment key={link}>
+                <a 
+                  href="#" 
+                  className="text-xs text-gray-400 hover:text-white transition-colors"
+                  aria-label={link}
+                >
+                  {link}
+                </a>
                 {i !== footerLinks.length - 1 && (
-                  <span className="mx-2"> | </span>
+                  <span className="text-gray-400 hidden md:inline">|</span>
                 )}
-              </p>
+              </React.Fragment>
             ))}
           </div>
         </div>
