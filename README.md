@@ -19,31 +19,6 @@ A visually stunning and fully responsive clone of the official [Apple iPhone 15 
 
 ---
 
-## 📋 Table of Contents
-
-- [📸 Screenshots](#-screenshots)
-- [📦 Tech Stack](#-tech-stack)
-- [✨ Features](#-features)
-- [⚙️ Installation](#️-installation)
-- [🚧 Known Issues](#-known-issues)
-- [📂 Project Structure](#-project-structure)
-- [📜 License](#-license)
-- [📣 Credits](#-credits)
-
----
-
-## 📦 Tech Stack
-
-| Tech | Description |
-|------|-------------|
-| **React.js** | JavaScript library for building UIs |
-| **Three.js** | JavaScript 3D library |
-| **React Three Fiber** | React renderer for Three.js |
-| **GSAP** | JavaScript animation library |
-| **Tailwind CSS** | Utility-first CSS framework |
-| **Vite** | Next-generation frontend build tool |
-
----
 
 ## ✨ Features
 
