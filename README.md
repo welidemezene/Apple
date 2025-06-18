@@ -1,5 +1,5 @@
 
-# 🍎 Apple iPhone 15 Pro Website Clone
+# 🍎 Apple iPhone 15
 
 A visually stunning and fully responsive clone of the official [Apple iPhone 15 Pro](https://www.apple.com/iphone-15-pro/) landing page. This project showcases modern web technologies like React, Three.js, GSAP, and Tailwind CSS — bringing Apple's elegant product presentation to life with 3D models and smooth animations.
 
