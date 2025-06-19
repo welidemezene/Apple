@@ -1,5 +1,4 @@
-
-# 🍎 Apple iPhone 15
+# 🍎 Apple iPhone 15 Pro Website Clone
 
 A visually stunning and fully responsive clone of the official [Apple iPhone 15 Pro](https://www.apple.com/iphone-15-pro/) landing page. This project showcases modern web technologies like React, Three.js, GSAP, and Tailwind CSS — bringing Apple's elegant product presentation to life with 3D models and smooth animations.
 
@@ -11,14 +10,41 @@ A visually stunning and fully responsive clone of the official [Apple iPhone 15 
 
 ## Screenshots
 
-### Mobile View
-![iPhone Homepage](./public/assets/images/iphonemobilefooter.png)
+### Desktop View
+![iPhone Homepage](./public/assets/images/iphonehomepage.png)
 
 
+### Mobile Footer View
+![iPhone Homepage](./public/assets/images/iphonemobile.png).
 > 💡 *Place your screenshots inside `public/screenshots/` folder with the correct filenames (`desktop.png`, `mobile.png`), or update the paths above.*
 
 ---
 
+## 📋 Table of Contents
+
+- [📸 Screenshots](#-screenshots)
+- [📦 Tech Stack](#-tech-stack)
+- [✨ Features](#-features)
+- [⚙️ Installation](#️-installation)
+- [🚧 Known Issues](#-known-issues)
+- [📂 Project Structure](#-project-structure)
+- [📜 License](#-license)
+- [📣 Credits](#-credits)
+
+---
+
+## 📦 Tech Stack
+
+| Tech | Description |
+|------|-------------|
+| **React.js** | JavaScript library for building UIs |
+| **Three.js** | JavaScript 3D library |
+| **React Three Fiber** | React renderer for Three.js |
+| **GSAP** | JavaScript animation library |
+| **Tailwind CSS** | Utility-first CSS framework |
+| **Vite** | Next-generation frontend build tool |
+
+---
 
 ## ✨ Features
 
