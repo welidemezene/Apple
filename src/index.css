@@ -23,6 +23,7 @@ html, body {
   /* user-select: none; */ /* Consider removing or limiting scope */
   position: relative; /* Helps with absolute positioning context */
 }
+}
 
 
 
