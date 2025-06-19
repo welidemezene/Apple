@@ -6,8 +6,7 @@ A visually stunning and fully responsive clone of the official [Apple iPhone 15 
 
 ## 🔗 Live Demo
 
-🌐 [View the Project](https://apple-i-phone-six.vercel.app/)
-
+🌐 [View the Project](https://apple-beta-ashy.vercel.app/)
 ## Screenshots
 
 ### Desktop View
